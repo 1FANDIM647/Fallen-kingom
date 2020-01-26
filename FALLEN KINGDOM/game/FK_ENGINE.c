@@ -1,21 +1,22 @@
 // main engine  for maps 
 #include <"wchar.h">
 #include <"windows.h">
-#include <"string.h">
 
 
+// we create triggers
 struct triggers
 {
-    char 
-	const string name_of_constant;
+    char mak_file_const;
+	char name_of_constant;
 
-	int  save_of_trigger () {
+	char save_of_trigger (char name_of_constant;) {
          for (int  i = 0 ; i<1; i++ )
          {
-         	const string name_of_constant = mak_file_const ; 
+         	// name of trigger will be written "in mak_file_const"  variable
+             name_of_constant = mak_file_const ; 
          }      
     
-      return 0;		
+      return  mak_file_const;		
 	}
 };
 
@@ -29,7 +30,7 @@ int mainWindow(int argc, char const *argv[])
 	int  width= 1900;
 	int  height= 680;
 
-
+    
 
 	/* code */
 	return 0;
@@ -37,6 +38,6 @@ int mainWindow(int argc, char const *argv[])
 
 int main(int argc, char const *argv[])
 {
-	/* code */
+	int  mainWindow ();
 	return 0;
 }
